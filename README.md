@@ -2,7 +2,7 @@
 
 A modern web application for managing patient appointments and sending automated reminders. Built with HTML, CSS, and JavaScript.
 
-![HealthTech Reminder System](https://i.imgur.com/placeholder.png)
+https://mohamedbashir2093.github.io/mara/
 
 ## Features
 
@@ -142,4 +142,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
-Project Link: (https://github.com/yourusername/health-reminder-app) 
+Project Link: https://mohamedbashir2093.github.io/mara/
