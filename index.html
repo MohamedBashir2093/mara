@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthTech Reminder System</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="main-header">
+    <i class="fa-solid fa-heart-pulse logo"></i>
+    <h1>HealthTech Reminder System</h1>
+  </header>
+  <div class="container">
+    <section class="card">
+      <h2><i class="fa-solid fa-user-plus"></i> Add Patient</h2>
+      <form id="patientForm">
+        <div class="input-group">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" id="name" placeholder="Patient Name" required />
+        </div>
+        <div class="input-group">
+          <i class="fa-solid fa-phone"></i>
+          <input type="text" id="phone" placeholder="Phone Number" required />
+        </div>
+        <div class="input-group">
+          <i class="fa-solid fa-calendar-days"></i>
+          <input type="date" id="appointmentDate" required />
+        </div>
+        <div class="input-group">
+          <i class="fa-solid fa-clock"></i>
+          <input type="time" id="appointmentTime" required />
+        </div>
+        <button type="submit"><i class="fa-solid fa-plus"></i> Add Patient</button>
+      </form>
+    </section>
+    <section class="card">
+      <h2><i class="fa-solid fa-users"></i> Patients List</h2>
+      <ul id="patientList"></ul>
+    </section>
+    <section class="card">
+      <h2><i class="fa-solid fa-bell"></i> Reminders</h2>
+      <ul id="reminderList"></ul>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
